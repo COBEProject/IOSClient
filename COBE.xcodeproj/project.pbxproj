@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356A13E51EF3E40400BB44FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A13E41EF3E40400BB44FC /* AppDelegate.swift */; };
+		356A13E71EF3E40400BB44FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A13E61EF3E40400BB44FC /* ViewController.swift */; };
+		356A13EA1EF3E40400BB44FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356A13E81EF3E40400BB44FC /* Main.storyboard */; };
+		356A13EC1EF3E40400BB44FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356A13EB1EF3E40400BB44FC /* Assets.xcassets */; };
+		356A13EF1EF3E40400BB44FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356A13ED1EF3E40400BB44FC /* LaunchScreen.storyboard */; };
+		356A13FA1EF3E40500BB44FC /* COBETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A13F91EF3E40500BB44FC /* COBETests.swift */; };
+		356A14051EF3E40500BB44FC /* COBEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A14041EF3E40500BB44FC /* COBEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		356A13F61EF3E40500BB44FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356A13D91EF3E40400BB44FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 356A13E01EF3E40400BB44FC;
+			remoteInfo = COBE;
+		};
+		356A14011EF3E40500BB44FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356A13D91EF3E40400BB44FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 356A13E01EF3E40400BB44FC;
+			remoteInfo = COBE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		356A13E11EF3E40400BB44FC /* COBE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COBE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356A13E41EF3E40400BB44FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		356A13E61EF3E40400BB44FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		356A13E91EF3E40400BB44FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		356A13EB1EF3E40400BB44FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		356A13EE1EF3E40400BB44FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		356A13F01EF3E40400BB44FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356A13F51EF3E40500BB44FC /* COBETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COBETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		356A13F91EF3E40500BB44FC /* COBETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBETests.swift; sourceTree = "<group>"; };
+		356A13FB1EF3E40500BB44FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356A14001EF3E40500BB44FC /* COBEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COBEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		356A14041EF3E40500BB44FC /* COBEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBEUITests.swift; sourceTree = "<group>"; };
+		356A14061EF3E40500BB44FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356A13DE1EF3E40400BB44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356A13F21EF3E40500BB44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356A13FD1EF3E40500BB44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356A13D81EF3E40400BB44FC = {
+			isa = PBXGroup;
+			children = (
+				356A13E31EF3E40400BB44FC /* COBE */,
+				356A13F81EF3E40500BB44FC /* COBETests */,
+				356A14031EF3E40500BB44FC /* COBEUITests */,
+				356A13E21EF3E40400BB44FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		356A13E21EF3E40400BB44FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356A13E11EF3E40400BB44FC /* COBE.app */,
+				356A13F51EF3E40500BB44FC /* COBETests.xctest */,
+				356A14001EF3E40500BB44FC /* COBEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		356A13E31EF3E40400BB44FC /* COBE */ = {
+			isa = PBXGroup;
+			children = (
+				356A13E41EF3E40400BB44FC /* AppDelegate.swift */,
+				356A13E61EF3E40400BB44FC /* ViewController.swift */,
+				356A13E81EF3E40400BB44FC /* Main.storyboard */,
+				356A13EB1EF3E40400BB44FC /* Assets.xcassets */,
+				356A13ED1EF3E40400BB44FC /* LaunchScreen.storyboard */,
+				356A13F01EF3E40400BB44FC /* Info.plist */,
+			);
+			path = COBE;
+			sourceTree = "<group>";
+		};
+		356A13F81EF3E40500BB44FC /* COBETests */ = {
+			isa = PBXGroup;
+			children = (
+				356A13F91EF3E40500BB44FC /* COBETests.swift */,
+				356A13FB1EF3E40500BB44FC /* Info.plist */,
+			);
+			path = COBETests;
+			sourceTree = "<group>";
+		};
+		356A14031EF3E40500BB44FC /* COBEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				356A14041EF3E40500BB44FC /* COBEUITests.swift */,
+				356A14061EF3E40500BB44FC /* Info.plist */,
+			);
+			path = COBEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		356A13E01EF3E40400BB44FC /* COBE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356A14091EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBE" */;
+			buildPhases = (
+				356A13DD1EF3E40400BB44FC /* Sources */,
+				356A13DE1EF3E40400BB44FC /* Frameworks */,
+				356A13DF1EF3E40400BB44FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COBE;
+			productName = COBE;
+			productReference = 356A13E11EF3E40400BB44FC /* COBE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		356A13F41EF3E40500BB44FC /* COBETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356A140C1EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBETests" */;
+			buildPhases = (
+				356A13F11EF3E40500BB44FC /* Sources */,
+				356A13F21EF3E40500BB44FC /* Frameworks */,
+				356A13F31EF3E40500BB44FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				356A13F71EF3E40500BB44FC /* PBXTargetDependency */,
+			);
+			name = COBETests;
+			productName = COBETests;
+			productReference = 356A13F51EF3E40500BB44FC /* COBETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		356A13FF1EF3E40500BB44FC /* COBEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356A140F1EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBEUITests" */;
+			buildPhases = (
+				356A13FC1EF3E40500BB44FC /* Sources */,
+				356A13FD1EF3E40500BB44FC /* Frameworks */,
+				356A13FE1EF3E40500BB44FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				356A14021EF3E40500BB44FC /* PBXTargetDependency */,
+			);
+			name = COBEUITests;
+			productName = COBEUITests;
+			productReference = 356A14001EF3E40500BB44FC /* COBEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		356A13D91EF3E40400BB44FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Theo Beuze";
+				TargetAttributes = {
+					356A13E01EF3E40400BB44FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					356A13F41EF3E40500BB44FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 356A13E01EF3E40400BB44FC;
+					};
+					356A13FF1EF3E40500BB44FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 356A13E01EF3E40400BB44FC;
+					};
+				};
+			};
+			buildConfigurationList = 356A13DC1EF3E40400BB44FC /* Build configuration list for PBXProject "COBE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 356A13D81EF3E40400BB44FC;
+			productRefGroup = 356A13E21EF3E40400BB44FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				356A13E01EF3E40400BB44FC /* COBE */,
+				356A13F41EF3E40500BB44FC /* COBETests */,
+				356A13FF1EF3E40500BB44FC /* COBEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		356A13DF1EF3E40400BB44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356A13EF1EF3E40400BB44FC /* LaunchScreen.storyboard in Resources */,
+				356A13EC1EF3E40400BB44FC /* Assets.xcassets in Resources */,
+				356A13EA1EF3E40400BB44FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356A13F31EF3E40500BB44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356A13FE1EF3E40500BB44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356A13DD1EF3E40400BB44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356A13E71EF3E40400BB44FC /* ViewController.swift in Sources */,
+				356A13E51EF3E40400BB44FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356A13F11EF3E40500BB44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356A13FA1EF3E40500BB44FC /* COBETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356A13FC1EF3E40500BB44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356A14051EF3E40500BB44FC /* COBEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		356A13F71EF3E40500BB44FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 356A13E01EF3E40400BB44FC /* COBE */;
+			targetProxy = 356A13F61EF3E40500BB44FC /* PBXContainerItemProxy */;
+		};
+		356A14021EF3E40500BB44FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 356A13E01EF3E40400BB44FC /* COBE */;
+			targetProxy = 356A14011EF3E40500BB44FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		356A13E81EF3E40400BB44FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356A13E91EF3E40400BB44FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		356A13ED1EF3E40400BB44FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356A13EE1EF3E40400BB44FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356A14071EF3E40500BB44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		356A14081EF3E40500BB44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356A140A1EF3E40500BB44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = COBE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		356A140B1EF3E40500BB44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = COBE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		356A140D1EF3E40500BB44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = COBETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COBE.app/COBE";
+			};
+			name = Debug;
+		};
+		356A140E1EF3E40500BB44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = COBETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COBE.app/COBE";
+			};
+			name = Release;
+		};
+		356A14101EF3E40500BB44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = COBEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = COBE;
+			};
+			name = Debug;
+		};
+		356A14111EF3E40500BB44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = COBEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = COBE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356A13DC1EF3E40400BB44FC /* Build configuration list for PBXProject "COBE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356A14071EF3E40500BB44FC /* Debug */,
+				356A14081EF3E40500BB44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356A14091EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356A140A1EF3E40500BB44FC /* Debug */,
+				356A140B1EF3E40500BB44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		356A140C1EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356A140D1EF3E40500BB44FC /* Debug */,
+				356A140E1EF3E40500BB44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		356A140F1EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356A14101EF3E40500BB44FC /* Debug */,
+				356A14111EF3E40500BB44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 356A13D91EF3E40400BB44FC /* Project object */;
+}
