@@ -14,6 +14,8 @@
 		356A13EF1EF3E40400BB44FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356A13ED1EF3E40400BB44FC /* LaunchScreen.storyboard */; };
 		356A13FA1EF3E40500BB44FC /* COBETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A13F91EF3E40500BB44FC /* COBETests.swift */; };
 		356A14051EF3E40500BB44FC /* COBEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A14041EF3E40500BB44FC /* COBEUITests.swift */; };
+		35E60F641EF4015800B9AA0B /* P2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E60F631EF4015800B9AA0B /* P2ViewController.swift */; };
+		35E60F661EF40D7200B9AA0B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 35E60F651EF40D7200B9AA0B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		356A14001EF3E40500BB44FC /* COBEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COBEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356A14041EF3E40500BB44FC /* COBEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBEUITests.swift; sourceTree = "<group>"; };
 		356A14061EF3E40500BB44FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E60F631EF4015800B9AA0B /* P2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2ViewController.swift; sourceTree = "<group>"; };
+		35E60F651EF40D7200B9AA0B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		356A13D81EF3E40400BB44FC = {
 			isa = PBXGroup;
 			children = (
+				35E60F651EF40D7200B9AA0B /* .gitignore */,
 				356A13E31EF3E40400BB44FC /* COBE */,
 				356A13F81EF3E40500BB44FC /* COBETests */,
 				356A14031EF3E40500BB44FC /* COBEUITests */,
@@ -99,6 +104,7 @@
 			children = (
 				356A13E41EF3E40400BB44FC /* AppDelegate.swift */,
 				356A13E61EF3E40400BB44FC /* ViewController.swift */,
+				35E60F631EF4015800B9AA0B /* P2ViewController.swift */,
 				356A13E81EF3E40400BB44FC /* Main.storyboard */,
 				356A13EB1EF3E40400BB44FC /* Assets.xcassets */,
 				356A13ED1EF3E40400BB44FC /* LaunchScreen.storyboard */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					356A13E01EF3E40400BB44FC = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q664S92D64;
 						ProvisioningStyle = Automatic;
 					};
 					356A13F41EF3E40500BB44FC = {
@@ -232,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E60F661EF40D7200B9AA0B /* .gitignore in Resources */,
 				356A13EF1EF3E40400BB44FC /* LaunchScreen.storyboard in Resources */,
 				356A13EC1EF3E40400BB44FC /* Assets.xcassets in Resources */,
 				356A13EA1EF3E40400BB44FC /* Main.storyboard in Resources */,
@@ -260,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				356A13E71EF3E40400BB44FC /* ViewController.swift in Sources */,
+				35E60F641EF4015800B9AA0B /* P2ViewController.swift in Sources */,
 				356A13E51EF3E40400BB44FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q664S92D64;
 				INFOPLIST_FILE = COBE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBE;
@@ -424,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q664S92D64;
 				INFOPLIST_FILE = COBE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cobe.client.ios.COBE;
@@ -505,6 +516,7 @@
 				356A140B1EF3E40500BB44FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		356A140C1EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBETests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				356A140E1EF3E40500BB44FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		356A140F1EF3E40500BB44FC /* Build configuration list for PBXNativeTarget "COBEUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				356A14111EF3E40500BB44FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,23 +1,22 @@
-//
-//  ViewController.swift
-//  COBE
-//
-//  Created by Theo Beuze on 16/06/2017.
-//  Copyright © 2017 Theo Beuze. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var codePartie: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        let mySecondView = storyboard?.instantiateViewController(withIdentifier: "P2ViewController") as! P2ViewController
+        mySecondView.stringPassed = codePartie.text!
+        navigationController?.pushViewController(mySecondView, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
